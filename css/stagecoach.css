@@ -33,19 +33,18 @@ body {
   background: linear-gradient(top, rgba(0,0,0,1) 240px, rgba(0,0,0,0) 600px);
 }
 
-
-.Row {
+.row {
   display: table-row;
   height: 1px;
   min-width: 480px;
   max-width: 1080px
 }
 
-.TableCell {
+.table-cell {
   display: table-cell
 }
 
-.Content{
+.content{
   max-width: 1080px;
   margin: auto;
   padding: 48px 64px;
@@ -55,7 +54,7 @@ body {
   cursor: default
 }
 
-.RoundedTop {
+.rounded-top {
   border-radius: 8px 8px 0 0
 }
 
@@ -87,15 +86,13 @@ nav a:hover {color: #FF6600}
 
 h1, h2, h3, h4, h5, h6, p, li { cursor: default }
 
-ol, ul {
-  padding: 4px; list-style: none
-}
+ol, ul { padding: 4px; list-style: none }
 
 dl {}
 dt {color: #000000; font-weight: bold; background: #999999; margin-top: 12px; padding-left: 8px; border-radius: 4px 4px 0 0; cursor: help}
 dd {color: #000000; padding-left: 16px; background: #AAAAAA; margin-bottom: 8px; border-radius: 0 0 4px 4px; cursor: default}
 
-.ContactContainer {
+.contact-container {
   text-align: center
 }
 

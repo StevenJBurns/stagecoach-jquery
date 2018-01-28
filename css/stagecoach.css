@@ -31,6 +31,9 @@ body {
   background: -moz-linear-gradient(top, #000000 240px, #333333 600px);
   background: -ms-linear-gradient(top, rgba(0,0,0,1) 240px, rgba(0,0,0,0) 600px);
   background: linear-gradient(top, rgba(0,0,0,1) 240px, rgba(0,0,0,0) 600px);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .row {
@@ -62,7 +65,6 @@ header {text-align: right; color: #000000; background: Orange;
         -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF0000, endColorstr=#FFFFFF00)";
         background: -webkit-linear-gradient(top, #FF0000, #FFFF00);
         background: linear-gradient(top, #FF0000, #FFFF00);
-
         background: -webkit-radial-gradient(75% 90%, circle cover, #FFFFFF, #FFFF00 32px,  #FF3300 75%);
         background: radial-gradient(farthest-corner circle at 75% 90%, #FFFFFF, #FFFF00 64px, #FF3300 75%)
 }
@@ -83,6 +85,10 @@ nav ul li:first-child {border-radius: 8px 0 0 8px}
 nav ul li:last-child {border-radius: 0 8px 8px 0}
 nav a {display: block; width: 100%; color: #CCCCCC; font-size: 18px; font-weight: bold; text-decoration: none; -webkit-transition: color 0.25s ease; text-shadow: 0px 0px 8px #000000}
 nav a:hover {color: #FF6600}
+
+main {
+  flex: 1
+}
 
 h1, h2, h3, h4, h5, h6, p, li { cursor: default }
 
@@ -118,11 +124,11 @@ p {
 }
 
 footer {
-  height: 2em;
   background: #BBBBBB
 }
 
 footer h4 {
+  margin: 8px;
   text-align: center;
   font-family: PapyrusRegular
 }

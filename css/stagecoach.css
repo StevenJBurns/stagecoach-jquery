@@ -8,7 +8,8 @@
        url('../Fonts/papyrus-webfont.svg#PapyrusRegular') format('svg')
 }
 
-* {margin: 0;
+* {
+  margin: 0;
   padding: 0;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0
@@ -61,13 +62,15 @@ body {
   border-radius: 8px 8px 0 0
 }
 
-header {text-align: right; color: #000000; background: Orange;
-        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF0000, endColorstr=#FFFFFF00)";
-        background: -webkit-linear-gradient(top, #FF0000, #FFFF00);
-        background: linear-gradient(top, #FF0000, #FFFF00);
-        background: -webkit-radial-gradient(75% 90%, circle cover, #FFFFFF, #FFFF00 32px,  #FF3300 75%);
-        background: radial-gradient(farthest-corner circle at 75% 90%, #FFFFFF, #FFFF00 64px, #FF3300 75%)
+header {
+  text-align: right; color: #000000; background: Orange;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF0000, endColorstr=#FFFFFF00)";
+  background: -webkit-linear-gradient(top, #FF0000, #FFFF00);
+  background: linear-gradient(top, #FF0000, #FFFF00);
+  background: -webkit-radial-gradient(75% 90%, circle cover, #FFFFFF, #FFFF00 32px,  #FF3300 75%);
+  background: radial-gradient(farthest-corner circle at 75% 90%, #FFFFFF, #FFFF00 64px, #FF3300 75%)
 }
+
 header h1, h4 {margin: 0 16px; font-family: PapyrusRegular; text-shadow: 0px 0px 8px #707070}
 header img {display: block; height: 72px}
 header a {width: 100%; color: #000000; text-decoration: none; -o-transition: color 0.25s ease; -ms-transition: color 0.25s ease; -webkit-transition: color 0.25s ease; transition: color 0.25s ease}
@@ -95,8 +98,25 @@ h1, h2, h3, h4, h5, h6, p, li { cursor: default }
 ol, ul { padding: 4px; list-style: none }
 
 dl {}
-dt {color: #000000; font-weight: bold; background: #999999; margin-top: 12px; padding-left: 8px; border-radius: 4px 4px 0 0; cursor: help}
-dd {color: #000000; padding-left: 16px; background: #AAAAAA; margin-bottom: 8px; border-radius: 0 0 4px 4px; cursor: default}
+
+dt {
+  color: #000000;
+  font-weight: bold;
+  background: #999999;
+  margin-top: 12px;
+  padding-left: 8px;
+  border-radius: 4px 4px 0 0;
+  cursor: help
+}
+
+dd {
+  color: #000000;
+  padding-left: 16px;
+  background: #AAAAAA;
+  margin-bottom: 8px;
+  border-radius: 0 0 4px 4px;
+  cursor: default
+}
 
 .contact-container {
   text-align: center

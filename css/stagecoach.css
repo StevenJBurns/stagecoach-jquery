@@ -116,7 +116,9 @@ h1, h2, h3, h4, h5, h6, p, li { cursor: default }
 
 ol, ul { padding: 4px; list-style: none }
 
-dl {}
+dl {
+  /* TBD */
+}
 
 dt {
   color: #000000;

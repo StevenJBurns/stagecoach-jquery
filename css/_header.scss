@@ -1,0 +1,34 @@
+header {
+  text-align: right; color: #000000; background: Orange;
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFF0000, endColorstr=#FFFFFF00)"; */
+  background: -webkit-linear-gradient(top, #FF0000, #FFFF00);
+  background: linear-gradient(top, #FF0000, #FFFF00);
+  background: -webkit-radial-gradient(75% 90%, circle cover, #FFFFFF, #FFFF00 32px,  #FF3300 75%);
+  background: radial-gradient(farthest-corner circle at 75% 90%, #FFFFFF, #FFFF00 64px, #FF3300 75%)
+}
+
+header h1,
+header h4 {
+  margin: 0 16px;
+  font-family: PapyrusRegular;
+  text-shadow: 0px 0px 8px #707070
+}
+
+header img {
+  display: block;
+  height: 72px
+}
+
+header a {
+  width: 100%;
+  color: #000000;
+  text-decoration: none;
+  -o-transition: color 0.25s ease;
+  -ms-transition: color 0.25s ease;
+  -webkit-transition: color 0.25s ease;
+  transition: color 0.25s ease
+}
+
+header a:hover {
+  color: #FFFF00
+}

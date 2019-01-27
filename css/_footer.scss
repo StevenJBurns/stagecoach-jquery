@@ -1,0 +1,19 @@
+footer {
+  background: #BBBBBB
+}
+
+footer h4 {
+  margin: 8px;
+  text-align: center;
+  font-family: PapyrusRegular
+}
+
+footer a {
+  color: #1F1F1F;
+  text-decoration: none;
+  transition: color 0.25s ease
+}
+
+footer a:hover {
+  color: #FF6600
+}

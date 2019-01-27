@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'PapyrusRegular';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../Fonts/papyrus-webfont.eot');
+  src: url('../Fonts/papyrus-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../Fonts/papyrus-webfont.ttf') format('truetype'),
+       url('../Fonts/papyrus-webfont.svg#PapyrusRegular') format('svg')
+}
+
+/* Tags */
+@import "header";
+@import "footer";
+@import "nav";
+
+/* Pages */
+@import "home";
+@import "admin";
+@import "processing";
+@import "retail";
+@import "about";
+@import "faq";
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0
+}
+
+html {
+  height: 100%;
+  background: #333333;
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  color: #BBBBBB;
+  font-family: Calibri, Verdana, Arial, sans-serif;
+  background: linear-gradient(top, rgba(0,0,0,1) 240px, rgba(0,0,0,0) 600px);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.row {
+  display: table-row;
+  height: 1px;
+  min-width: 480px;
+  max-width: 1080px
+}
+
+.table-cell {
+  display: table-cell
+}
+
+.content{
+  max-width: 1080px;
+  margin: auto;
+  padding: 48px 64px;
+  color: #000000;
+  background: #BBBBBB;
+  text-align: left;
+  cursor: default
+}
+
+.rounded-top {
+  border-radius: 8px 8px 0 0
+}
+
+main {
+  flex: 1
+}
+
+h1, h2, h3, h4, h5, h6, p, li { cursor: default }
+
+ol, ul { padding: 4px; list-style: none }
+
+dl {
+  /* TBD */
+}
+
+dt {
+  color: #000000;
+  font-weight: bold;
+  background: #999999;
+  margin-top: 12px;
+  padding-left: 8px;
+  border-radius: 4px 4px 0 0;
+  cursor: help
+}
+
+dd {
+  color: #000000;
+  padding-left: 16px;
+  background: #AAAAAA;
+  margin-bottom: 8px;
+  border-radius: 0 0 4px 4px;
+  cursor: default
+}
+
+.contact-container {
+  text-align: center
+}
+
+.ul-contact-box {
+  width: 192px;
+  padding: 0;
+  margin: 16px;
+  color: #FFFFFF;
+  background: #7F7F7F;
+  border-radius: 4px;
+  display: inline-block
+}
+
+.ul-contact-box > li:first-child {
+  background: #333333
+}
+
+p {
+  padding: 24px;
+  color: #000000;
+  text-align: justify;
+  font-weight: normal
+}

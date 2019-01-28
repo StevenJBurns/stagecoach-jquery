@@ -1,3 +1,16 @@
+/* Tag Partials */
+@import "header";
+@import "footer";
+@import "nav";
+
+/* Pages Partials */
+@import "home";
+@import "admin";
+@import "processing";
+@import "retail";
+@import "about";
+@import "faq";
+
 @font-face {
   font-family: 'PapyrusRegular';
   font-weight: normal;
@@ -7,21 +20,6 @@
        url('../Fonts/papyrus-webfont.ttf') format('truetype'),
        url('../Fonts/papyrus-webfont.svg#PapyrusRegular') format('svg')
 }
-
-/* Tags */
-@import "header";
-@import "footer";
-@import "nav";
-
-/* Pages */
-@import "home";
-@import "admin";
-@import "processing";
-@import "retail";
-@import "about";
-@import "faq";
-
-
 
 * {
   margin: 0;
